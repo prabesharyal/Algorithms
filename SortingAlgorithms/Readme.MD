@@ -6,7 +6,7 @@ The algorith for selection sort is :
 >- Loop from ```i=0``` to ```i < N - 1```
 >- set ```min = i```
 >- Loop from ```j = i + 1``` to ```j < N```
->- ```if array[min] > array[j]```, **SWAP** them.
+>- ```if array[min] < array[j]```, **SWAP** them.
 >- Continue the loop 
 
 
@@ -17,7 +17,7 @@ The algorith for selection sort is :
 The algorith for selection sort is :
 >- Loop from ```i=0``` to ```i < N-1```
 >- Loop from ```j = 0``` to ```j < N-i-1```
->- ```if array[i] > array[j+1]```, **SWAP** them.
+>- ```if array[j] > array[j+1]```, **SWAP** them.
 >- Continue the loop 
 
 #
